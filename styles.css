@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+#root {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+[data-section] {
+  width: 100%;
+  background-image: url("dust.png");
+}
+
+.stop {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.els {
+  display: flex;
+
+}
+
+.el {
+  width: 15vmax;
+  height: 15vmax;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 30px;
+}
+
+div.el_1 {
+  animation: fadeInTopLeft;
+  animation-duration: 1s;
+}
+
+div.el_2 {
+  animation: fadeInUpBig;
+  animation-duration: 3s;
+}
+
+div.el_3 {
+  animation: fadeInTopRight;
+  animation-duration: 2s;
+}
